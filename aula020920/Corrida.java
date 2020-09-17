@@ -7,8 +7,6 @@ public class Corrida {
         Carro c1 = new Carro();
         Carro c2 = new Carro();
 
-        double distanciaPistaMetros = 10000; 
-
         c1.velocidadeKmPorHora = Math.random() * 200;
         c1.mover(1);
 
